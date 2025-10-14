@@ -1,0 +1,56 @@
+.profile-section {
+  width: 300px;
+  padding: 20px;
+  background-color: #f5f8fa;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+  margin: 50px auto; /* Centers the box horizontally */
+}
+/* Keep photo style mostly the same */
+.profile-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 2px solid #0d8abc;
+ 
+}
+
+.profile-sidebar h2 {
+  margin: 0 0 10px 0;
+  color: #0d8abc;
+}
+
+.profile-sidebar p {
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.profile-social-links a {
+  display: inline-block;
+  margin: 0 8px;
+  color: #0d8abc;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: color 0.2s ease;
+}
+
+.profile-social-links a:hover {
+  color: #074a6a;
+  text-decoration: underline;
+}
+
+.profile-aside {
+  /* Optional styles */
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+}

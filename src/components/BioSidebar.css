@@ -1,0 +1,45 @@
+.bio-sidebar {
+  width: 250px;
+  padding: 20px;
+  background-color: #f5f8fa;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.bio-photo {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 2px solid #0d8abc;
+}
+
+.bio-sidebar h2 {
+  margin: 0 0 10px 0;
+  color: #0d8abc;
+}
+
+.bio-sidebar p {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 0 8px;
+  color: #0d8abc;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: color 0.2s ease;
+}
+
+.social-links a:hover {
+  color: #074a6a;
+  text-decoration: underline;
+}
