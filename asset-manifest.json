@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ChirpSocial/static/css/main.7969d387.css",
+    "main.js": "/ChirpSocial/static/js/main.567b05f9.js",
+    "static/js/787.fdc10fe4.chunk.js": "/ChirpSocial/static/js/787.fdc10fe4.chunk.js",
+    "static/media/bird.png": "/ChirpSocial/static/media/bird.67e691bc79fab1e4e933.png",
+    "index.html": "/ChirpSocial/index.html",
+    "main.7969d387.css.map": "/ChirpSocial/static/css/main.7969d387.css.map",
+    "main.567b05f9.js.map": "/ChirpSocial/static/js/main.567b05f9.js.map",
+    "787.fdc10fe4.chunk.js.map": "/ChirpSocial/static/js/787.fdc10fe4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7969d387.css",
+    "static/js/main.567b05f9.js"
+  ]
+}
