@@ -71,7 +71,7 @@ const ChirpForm = ({ propsChirp = {}, addNewChirp, updateChirp }) => {
       <h1>{chirp.id ? "Edit Chirp" : "Send New Chirp"}</h1>
 
       <p>
-        <label htmlFor="form-title">Title:</label>
+        <label htmlFor="form-title">Chirp:</label>
         <br />
         <input
           id="form-title"
@@ -84,21 +84,6 @@ const ChirpForm = ({ propsChirp = {}, addNewChirp, updateChirp }) => {
           }
         />
       </p>
-
-      <p>
-        <label htmlFor="form-content">Chirp:</label>
-      </p>
-      <Quill
-        ref={quillRef}
-        value={chirp.content}
-        onChange={(content, delta, source, editor) =>
-          setChirp({
-            ...chirp,
-            content: editor.getContents(),
-          })
-        }
-      />
-
       <p>
         <button type="submit">Send</button>
       </p>

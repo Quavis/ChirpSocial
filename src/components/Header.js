@@ -9,7 +9,6 @@ const Header = (props) => (
     <ul className="container">
       <li><Link to="/">Home</Link></li>
       <li><Link to="/new">New Chirp</Link></li>
-      <li><Link to="/about">About</Link></li>
       <li><Link to="/profile">Profile</Link></li>
       <li><Link to="/login">Login</Link></li>
     </ul>
