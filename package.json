@@ -12,7 +12,6 @@
     "react-quill": "^2.0.0",
     "react-router-dom": "^6.17.0",
     "react-scripts": "5.0.1",
-    "react-simple-storage": "^1.4.2",
     "web-vitals": "^2.1.4"
   },
   "homepage": "https://Quavis.github.io/ChirpSocial",
